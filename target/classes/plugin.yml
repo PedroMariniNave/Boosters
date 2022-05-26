@@ -1,0 +1,7 @@
+name: Boosters
+description: Only a simple boosters plugin.
+version: 1.0
+author: zPedroo_
+main: com.zpedroo.voltzboosters.VoltzBoosters
+softdepend:
+  - mcMMO

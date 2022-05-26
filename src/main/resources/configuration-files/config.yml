@@ -1,0 +1,53 @@
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  command: boosters
+  aliases: [booster]
+  save-interval: 600 # segundos
+  # A cada quantos segundos o plugin
+  # vai verificar boosters expirados.
+  # Essa função não altera o funcionamento
+  # dos boosters, é apenas útil para enviar
+  # enviar a mensagem quando expira.
+  check-interval: 60
+
+Messages:
+  expired-booster: '&cO seu Booster de {booster} acabou!'
+  active-booster: '&cVocê já possui um booster desse tipo ativo!'
+
+Boosters:
+  mcmmo:
+    display-name: 'Habilidades'
+    item:
+      type: EXP_BOTTLE
+      name: '&7Booster &8- &6Habilidades'
+      lore:
+        - '&7Ative esse booster para aumentar'
+        - '&7o xp de suas habilidades em &f{multiplier}x'
+        - '&7durante &f{duration} &7minutos!'
+  machines:
+    display-name: 'Máquinas'
+    item:
+      type: EXP_BOTTLE
+      name: '&7Booster &8- &6Máquinas'
+      lore:
+        - '&7Ative esse booster para aumentar'
+        - '&7os drops gerados por todas suas'
+        - '&7máquinas em &f{multiplier}x &7durante &f{duration} &7minutos!'
+
+Time-Formatter:
+  second: '&7segundo&f'
+  seconds: '&7segundos&f'
+  minute: '&7minuto&f'
+  minutes: '&7minutos&f'
+  hour: '&7hora&f'
+  hours: '&7horas&f'
+  day: '&7dia&f'
+  days: '&7dias&f'
+  now: '&f0 &7segundo'

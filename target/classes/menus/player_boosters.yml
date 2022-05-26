@@ -1,0 +1,24 @@
+Inventory:
+  title: "Boosters"
+  size: 27
+  items:
+    mcmmo:
+      type: EXP_BOTTLE
+      name: '&7Booster &8- &6Habilidades'
+      lore:
+        - '&7Abaixo estão as informações'
+        - '&7desse booster:'
+        - ''
+        - ' &8▶ &7Multiplier: &f{multiplier}x'
+        - ' &8▶ &7Tempo restante: &f{remaining_time}'
+      slot: 12
+    machines:
+      type: EXP_BOTTLE
+      name: '&7Booster &8- &6Máquinas'
+      lore:
+        - '&7Abaixo estão as informações'
+        - '&7desse booster:'
+        - ''
+        - ' &8▶ &7Multiplier: &f{multiplier}x'
+        - ' &8▶ &7Tempo restante: &f{remaining_time}'
+      slot: 14
